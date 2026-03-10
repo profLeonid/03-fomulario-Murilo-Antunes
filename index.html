@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cadastrar</title>
+    <script src="https://kit.fontawesome.com/4acd459722.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-red-500">
+    <header class="flex justify-center items-center flex-col "  >
+        <h1 class="text-white mt-[98px] text-[48px] mb-[24px]">Criar Conta</h1>
+        <nav class="flex flex-row gap-10 mb-[24px] ">
+            <i class="flex items-center justify-center flex-nowrap w-[40px] h-[40px] bg-white rounded-full hover:bg-red-500 hover:text-white hover:shadow-[0px_5px_10px_black]"><i class="fa-brands fa-facebook-f "></i></i>
+            <i class="flex items-center justify-center flex-nowrap w-[40px] h-[40px] bg-white rounded-full hover:bg-red-500 hover:text-white hover:shadow-[0px_5px_10px_black]"><i class="fa-brands fa-google "></i></i>
+            <i class="flex items-center justify-center flex-nowrap w-[40px] h-[40px] bg-white rounded-full hover:bg-red-500 hover:text-white hover:shadow-[0px_5px_10px_black]"><i class="fa-brands fa-linkedin-in "></i></i>
+            
+        </nav>
+        <p class="text-white">ou cadestre seu email</p>
+    </header>
+
+    <main class="mt-[24px]">
+        <section class="flex justify-center items-center flex-col gap-3">
+            <input type="text" class="w-[290px] h-[39px] bg-white border-[1px] p-[10px]" placeholder="Nome">
+            <input type="text" class="w-[290px] h-[39px] bg-white border-[1px] p-[10px]" placeholder="Email">
+            <input type="text" class="w-[290px] h-[39px] bg-white border-[1px] p-[10px]" placeholder="Senha">
+        </section>
+
+        <section class="flex flex-col justify-center items-center">
+            <input type="submit" class="flex justify-center items-center w-[180px] h-[40px] text-white border-[2px] border-white rounded-[20px] mt-[24px]" value="Cadastrar" >
+            <p class="mt-[24px] text-white">Já tem conta? <a href="#" class="font-bold">Login</a></p>
+        </section>
+    </main>
+</body>
+</html>
